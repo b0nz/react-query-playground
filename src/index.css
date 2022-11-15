@@ -32,6 +32,17 @@ body {
   min-height: 100vh;
 }
 
+.img-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
